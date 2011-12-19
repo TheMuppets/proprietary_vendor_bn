@@ -30,3 +30,7 @@ PRODUCT_COPY_FILES := \
 DEVICE_PACKAGE_OVERLAYS := vendor/bn/encore/overlay
 
 $(call inherit-product, vendor/bn/encore/device-vendor-blobs.mk)
+
+# XXX: We may want to move this to device/bn/encore/, as the files here are NOT
+#      proprietary, but are built from CM7 source and copied over here, prebuilt
+$(call inherit-product, vendor/bn/encore/device-vendor-prebuilt.mk)
