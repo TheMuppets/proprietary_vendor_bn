@@ -20,7 +20,6 @@ DEVICE_PACKAGE_OVERLAYS := vendor/bn/encore/overlay
 
 # HACK: Remove this
 PRODUCT_COPY_FILES := \
-    vendor/bn/encore/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/bn/encore/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so
 
 # Propritary Blobs
@@ -75,11 +74,9 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/bn/encore/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
     vendor/bn/encore/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/hw/alsa.omap3.so:system/lib/hw/alsa.omap3.so \
     vendor/bn/encore/proprietary/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
     vendor/bn/encore/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
     vendor/bn/encore/proprietary/lib/libLCML.so:system/lib/libLCML.so \
-    vendor/bn/encore/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
@@ -112,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/libVendor_ti_omx_config_parser.so:system/lib/libVendor_ti_omx_config_parser.so \
     vendor/bn/encore/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/bn/encore/proprietary/lib/libasound.so:system/lib/libasound.so \
-    vendor/bn/encore/proprietary/lib/libaudio.so:system/lib/libaudio.so \
     vendor/bn/encore/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/bn/encore/proprietary/lib/libbridge.so:system/lib/libbridge.so \
     vendor/bn/encore/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
