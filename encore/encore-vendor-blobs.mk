@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
     vendor/bn/encore/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
     vendor/bn/encore/proprietary/lib/libLCML.so:system/lib/libLCML.so \
+    vendor/bn/encore/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AAC.encode.so:system/lib/libOMX.TI.AAC.encode.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AMR.decode.so:system/lib/libOMX.TI.AMR.decode.so \
