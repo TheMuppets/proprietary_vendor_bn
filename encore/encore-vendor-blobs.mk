@@ -70,12 +70,12 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/dsp/wmv9dec_sn.dll64P:system/lib/dsp/wmv9dec_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/yuvconvert.l64p:system/lib/dsp/yuvconvert.l64p \
     vendor/bn/encore/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
-    vendor/bn/encore/proprietary/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    vendor/bn/encore/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
-    vendor/bn/encore/proprietary/lib/libIMGegl.so:system/lib/libIMGegl.so \
+    vendor/bn/encore/proprietary/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
+    vendor/bn/encore/proprietary/lib/egl/libGLES_android.so:system/vendor/lib/egl/libGLES_android.so \
+    vendor/bn/encore/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+    vendor/bn/encore/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+    vendor/bn/encore/proprietary/lib/hw/gralloc.omap3.so:system/vendor/lib/hw/gralloc.omap3.so \
+    vendor/bn/encore/proprietary/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/bn/encore/proprietary/lib/libLCML.so:system/lib/libLCML.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.AAC.decode.so:system/lib/libOMX.TI.AAC.decode.so \
@@ -102,17 +102,17 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/libOMX.TI.WBAMR.encode.so:system/lib/libOMX.TI.WBAMR.encode.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.WMA.decode.so:system/lib/libOMX.TI.WMA.decode.so \
     vendor/bn/encore/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
-    vendor/bn/encore/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-    vendor/bn/encore/proprietary/lib/libOpenVGU.so:system/lib/libOpenVGU.so \
+    vendor/bn/encore/proprietary/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/bn/encore/proprietary/lib/libOpenVGU.so:system/vendor/lib/libOpenVGU.so \
     vendor/bn/encore/proprietary/lib/libPERF.so:system/lib/libPERF.so \
-    vendor/bn/encore/proprietary/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
+    vendor/bn/encore/proprietary/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/bn/encore/proprietary/lib/libVendor_ti_omx.so:system/lib/libVendor_ti_omx.so \
     vendor/bn/encore/proprietary/lib/libVendor_ti_omx_config_parser.so:system/lib/libVendor_ti_omx_config_parser.so \
     vendor/bn/encore/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/bn/encore/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/bn/encore/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/bn/encore/proprietary/lib/libbridge.so:system/lib/libbridge.so \
-    vendor/bn/encore/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
+    vendor/bn/encore/proprietary/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/bn/encore/proprietary/lib/libomap_mm_library_jni.so:system/lib/libomap_mm_library_jni.so \
     vendor/bn/encore/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
     vendor/bn/encore/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
@@ -132,13 +132,13 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/libopencore_rtsp.so:system/lib/libopencore_rtsp.so \
     vendor/bn/encore/proprietary/lib/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
     vendor/bn/encore/proprietary/lib/libopencorehw.so:system/lib/libopencorehw.so \
-    vendor/bn/encore/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
-    vendor/bn/encore/proprietary/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
-    vendor/bn/encore/proprietary/lib/libpvrPVR2D_FLIPWSEGL.so:system/lib/libpvrPVR2D_FLIPWSEGL.so \
-    vendor/bn/encore/proprietary/lib/libpvrPVR2D_FRONTWSEGL.so:system/lib/libpvrPVR2D_FRONTWSEGL.so \
-    vendor/bn/encore/proprietary/lib/libsrv_init.so:system/lib/libsrv_init.so \
-    vendor/bn/encore/proprietary/lib/libsrv_um.so:system/lib/libsrv_um.so \
-    vendor/bn/encore/proprietary/lib/libusc.so:system/lib/libusc.so \
+    vendor/bn/encore/proprietary/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/bn/encore/proprietary/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/bn/encore/proprietary/lib/libpvrPVR2D_FLIPWSEGL.so:system/vendor/lib/libpvrPVR2D_FLIPWSEGL.so \
+    vendor/bn/encore/proprietary/lib/libpvrPVR2D_FRONTWSEGL.so:system/vendor/lib/libpvrPVR2D_FRONTWSEGL.so \
+    vendor/bn/encore/proprietary/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/bn/encore/proprietary/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/bn/encore/proprietary/lib/libusc.so:system/vendor/lib/libusc.so \
     vendor/bn/encore/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/bn/encore/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/bn/encore/proprietary/usr/share/alsa/init/00main:system/usr/share/alsa/init/00main \
