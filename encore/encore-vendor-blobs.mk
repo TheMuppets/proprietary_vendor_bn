@@ -88,31 +88,11 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
     vendor/bn/encore/proprietary/lib/libOpenVGU.so:system/lib/libOpenVGU.so \
     vendor/bn/encore/proprietary/lib/libPVRScopeServices.so:system/lib/libPVRScopeServices.so \
-    vendor/bn/encore/proprietary/lib/libVendor_ti_omx.so:system/lib/libVendor_ti_omx.so \
-    vendor/bn/encore/proprietary/lib/libVendor_ti_omx_config_parser.so:system/lib/libVendor_ti_omx_config_parser.so \
     vendor/bn/encore/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
     vendor/bn/encore/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/bn/encore/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
     vendor/bn/encore/proprietary/lib/libglslcompiler.so:system/lib/libglslcompiler.so \
     vendor/bn/encore/proprietary/lib/libomap_mm_library_jni.so:system/lib/libomap_mm_library_jni.so \
-    vendor/bn/encore/proprietary/lib/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \
-    vendor/bn/encore/proprietary/lib/libopencore_author.so:system/lib/libopencore_author.so \
-    vendor/bn/encore/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
-    vendor/bn/encore/proprietary/lib/libopencore_download.so:system/lib/libopencore_download.so \
-    vendor/bn/encore/proprietary/lib/libopencore_downloadreg.so:system/lib/libopencore_downloadreg.so \
-    vendor/bn/encore/proprietary/lib/libopencore_mp4local.so:system/lib/libopencore_mp4local.so \
-    vendor/bn/encore/proprietary/lib/libopencore_mp4localreg.so:system/lib/libopencore_mp4localreg.so \
-    vendor/bn/encore/proprietary/lib/libopencore_net_support.so:system/lib/libopencore_net_support.so \
-    vendor/bn/encore/proprietary/lib/libopencore_player.so:system/lib/libopencore_player.so \
-    vendor/bn/encore/proprietary/lib/libopencore_rtsp.so:system/lib/libopencore_rtsp.so \
-    vendor/bn/encore/proprietary/lib/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
-    vendor/bn/encore/proprietary/lib/libopencorehw.so:system/lib/libopencorehw.so \
     vendor/bn/encore/proprietary/lib/libpvr2d.so:system/lib/libpvr2d.so \
     vendor/bn/encore/proprietary/lib/libpvrANDROID_WSEGL.so:system/lib/libpvrANDROID_WSEGL.so \
     vendor/bn/encore/proprietary/lib/libpvrPVR2D_FLIPWSEGL.so:system/lib/libpvrPVR2D_FLIPWSEGL.so \
