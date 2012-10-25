@@ -77,9 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:system/lib/dsp/mpeg4aacenc_sn.dll64P \
-    vendor/bn/encore/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/bn/encore/proprietary/lib/egl/libEGL_POWERVR_SGX530_125.so:system/lib/egl/libEGL_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     vendor/bn/encore/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
     vendor/bn/encore/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
     vendor/bn/encore/proprietary/lib/hw/gralloc.omap3.so:system/lib/hw/gralloc.omap3.so \
