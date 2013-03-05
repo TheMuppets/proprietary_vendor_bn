@@ -22,3 +22,4 @@ PRODUCT_COPY_FILES += \
 	vendor/bn/acclaim/proprietary/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin \
 	vendor/bn/acclaim/proprietary/etc/wifi/TQS_S_2.6.ini:/system/etc/wifi/TQS_S_2.6.ini
 
+
