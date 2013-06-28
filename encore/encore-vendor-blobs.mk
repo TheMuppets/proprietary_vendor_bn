@@ -18,16 +18,12 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/bn/encore/overlay
 
 
-# HACK: Remove this
-PRODUCT_COPY_FILES += \
-    vendor/bn/encore/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so
-
 # Proprietary Blobs
 PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
     vendor/bn/encore/proprietary/etc/powervr.ini:system/etc/powervr.ini \
-    vendor/bn/encore/proprietary/lib/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
-    vendor/bn/encore/proprietary/lib/libbltsville_ticpu.so:system/vendor/lib/libbltsville_ticpu.so \
+    vendor/bn/encore/proprietary/vendor/lib/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
+    vendor/bn/encore/proprietary/vendor/lib/libbltsville_ticpu.so:system/vendor/lib/libbltsville_ticpu.so \
     vendor/bn/encore/proprietary/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/nbamrdec_sn.dll64P:system/lib/dsp/nbamrdec_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/monitor_tiomap3430.dof64P:system/lib/dsp/monitor_tiomap3430.dof64P \
@@ -79,45 +75,19 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/jpegdec_sn.dll64P:system/lib/dsp/jpegdec_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:system/lib/dsp/mpeg4aacenc_sn.dll64P \
-    vendor/bn/encore/proprietary/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
-    vendor/bn/encore/proprietary/lib/hw/gralloc.omap3.so:system/vendor/lib/hw/gralloc.omap3.so \
-    vendor/bn/encore/proprietary/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
+    vendor/bn/encore/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so:system/vendor/lib/egl/libEGL_POWERVR_SGX530_125.so \
+    vendor/bn/encore/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX530_125.so \
+    vendor/bn/encore/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX530_125.so \
+    vendor/bn/encore/proprietary/vendor/lib/hw/gralloc.omap3.so:system/vendor/lib/hw/gralloc.omap3.so \
+    vendor/bn/encore/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/bn/encore/proprietary/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
-    vendor/bn/encore/proprietary/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/bn/encore/proprietary/lib/libOpenVGU.so:system/vendor/lib/libOpenVGU.so \
-    vendor/bn/encore/proprietary/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
-    vendor/bn/encore/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
-    vendor/bn/encore/proprietary/lib/libasound.so:system/lib/libasound.so \
-    vendor/bn/encore/proprietary/lib/libaudiopolicy.so:system/lib/libaudiopolicy.so \
-    vendor/bn/encore/proprietary/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
+    vendor/bn/encore/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/bn/encore/proprietary/vendor/lib/libOpenVGU.so:system/vendor/lib/libOpenVGU.so \
+    vendor/bn/encore/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
+    vendor/bn/encore/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/bn/encore/proprietary/lib/libomap_mm_library_jni.so:system/lib/libomap_mm_library_jni.so \
-    vendor/bn/encore/proprietary/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
-    vendor/bn/encore/proprietary/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
-    vendor/bn/encore/proprietary/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
-    vendor/bn/encore/proprietary/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
-    vendor/bn/encore/proprietary/lib/libusc.so:system/vendor/lib/libusc.so \
-    vendor/bn/encore/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/init/00main:system/usr/share/alsa/init/00main \
-    vendor/bn/encore/proprietary/usr/share/alsa/init/default:system/usr/share/alsa/init/default \
-    vendor/bn/encore/proprietary/usr/share/alsa/init/hda:system/usr/share/alsa/init/hda \
-    vendor/bn/encore/proprietary/usr/share/alsa/init/help:system/usr/share/alsa/init/help \
-    vendor/bn/encore/proprietary/usr/share/alsa/init/info:system/usr/share/alsa/init/info \
-    vendor/bn/encore/proprietary/usr/share/alsa/init/test:system/usr/share/alsa/init/test \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/default.conf:system/usr/share/alsa/pcm/default.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/dmix.conf:system/usr/share/alsa/pcm/dmix.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/dpl.conf:system/usr/share/alsa/pcm/dpl.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/dsnoop.conf:system/usr/share/alsa/pcm/dsnoop.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/front.conf:system/usr/share/alsa/pcm/front.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/iec958.conf:system/usr/share/alsa/pcm/iec958.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/modem.conf:system/usr/share/alsa/pcm/modem.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/rear.conf:system/usr/share/alsa/pcm/rear.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/side.conf:system/usr/share/alsa/pcm/side.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/surround40.conf:system/usr/share/alsa/pcm/surround40.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/surround41.conf:system/usr/share/alsa/pcm/surround41.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/surround50.conf:system/usr/share/alsa/pcm/surround50.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/surround51.conf:system/usr/share/alsa/pcm/surround51.conf \
-    vendor/bn/encore/proprietary/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf
+    vendor/bn/encore/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
+    vendor/bn/encore/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
+    vendor/bn/encore/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
+    vendor/bn/encore/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
+    vendor/bn/encore/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so
