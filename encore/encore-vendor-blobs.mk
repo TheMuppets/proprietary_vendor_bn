@@ -21,7 +21,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/bn/encore/overlay
 # Proprietary Blobs
 PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
-    vendor/bn/encore/proprietary/etc/powervr.ini:system/etc/powervr.ini \
     vendor/bn/encore/proprietary/vendor/lib/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
     vendor/bn/encore/proprietary/vendor/lib/libbltsville_ticpu.so:system/vendor/lib/libbltsville_ticpu.so \
     vendor/bn/encore/proprietary/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
