@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/bn/omap4470-common/proprietary/vendor/lib/hw/gralloc.omap4470.so:/system/vendor/lib/hw/gralloc.omap4.so \
+    vendor/bn/omap4470-common/proprietary/vendor/lib/egl/License_for_IMG_SGX_Binary_Image.txt:/system/vendor/lib/egl/License_for_IMG_SGX_Binary_Image.txt \
     vendor/bn/omap4470-common/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so:/system/vendor/lib/egl/libEGL_POWERVR_SGX544_112.so \
     vendor/bn/omap4470-common/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_112.so:/system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_112.so \
     vendor/bn/omap4470-common/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX544_112.so:/system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_112.so \
