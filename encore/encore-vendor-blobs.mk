@@ -21,8 +21,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/bn/encore/overlay
 # Proprietary Blobs
 PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/bin/pvrsrvinit:system/bin/pvrsrvinit \
-    vendor/bn/encore/proprietary/vendor/lib/libbltsville_cpu.so:system/vendor/lib/libbltsville_cpu.so \
-    vendor/bn/encore/proprietary/vendor/lib/libbltsville_ticpu.so:system/vendor/lib/libbltsville_ticpu.so \
     vendor/bn/encore/proprietary/lib/dsp/g729enc_sn.dll64P:system/lib/dsp/g729enc_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/nbamrdec_sn.dll64P:system/lib/dsp/nbamrdec_sn.dll64P \
     vendor/bn/encore/proprietary/lib/dsp/monitor_tiomap3430.dof64P:system/lib/dsp/monitor_tiomap3430.dof64P \
@@ -84,7 +82,6 @@ PRODUCT_COPY_FILES += \
     vendor/bn/encore/proprietary/vendor/lib/libOpenVGU.so:system/vendor/lib/libOpenVGU.so \
     vendor/bn/encore/proprietary/vendor/lib/libPVRScopeServices.so:system/vendor/lib/libPVRScopeServices.so \
     vendor/bn/encore/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
-    vendor/bn/encore/proprietary/lib/libomap_mm_library_jni.so:system/lib/libomap_mm_library_jni.so \
     vendor/bn/encore/proprietary/vendor/lib/libpvr2d.so:system/vendor/lib/libpvr2d.so \
     vendor/bn/encore/proprietary/vendor/lib/libpvrANDROID_WSEGL.so:system/vendor/lib/libpvrANDROID_WSEGL.so \
     vendor/bn/encore/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
