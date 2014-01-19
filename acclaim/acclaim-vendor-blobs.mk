@@ -17,12 +17,6 @@
 PRODUCT_COPY_FILES += \
  vendor/bn/acclaim/proprietary/xbin/setpropex:system/xbin/setpropex \
  vendor/bn/acclaim/proprietary/bin/bbx:system/bin/bbx \
- vendor/bn/acclaim/proprietary/etc/firmware/ti-connectivity/LICENSE:system/etc/firmware/ti-connectivity/LICENSE \
- vendor/bn/acclaim/proprietary/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs_127x.bin \
- vendor/bn/acclaim/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
- vendor/bn/acclaim/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
- vendor/bn/acclaim/proprietary/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
- vendor/bn/acclaim/proprietary/etc/wifi/TQS_S_2.6.ini:system/etc/wifi/TQS_S_2.6.ini \
  vendor/bn/acclaim/proprietary/etc/firmware/touch/ft5406_sc3052_1024x768.bin:system/etc/firmware/touch/ft5406_sc3052_1024x768.bin \
  vendor/bn/acclaim/proprietary/etc/firmware/touch/fts0019u700_ver13_app.bin:system/etc/firmware/touch/fts0019u700_ver13_app.bin \
  vendor/bn/acclaim/proprietary/etc/firmware/touch/fts0019u700_ver14_app.bin:system/etc/firmware/touch/fts0019u700_ver14_app.bin \
