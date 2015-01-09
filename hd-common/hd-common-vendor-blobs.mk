@@ -17,14 +17,9 @@
 PRODUCT_COPY_FILES += \
     vendor/bn/hd-common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     vendor/bn/hd-common/proprietary/vendor/firmware/smc_pa.ift:system/vendor/firmware/smc_pa.ift \
-   vendor/bn/hd-common/proprietary/bin/install_wv_keybox:/system/bin/install_wv_keybox \
-   vendor/bn/hd-common/proprietary/bin/wvdrm_test_client:/system/bin/wvdrm_test_client \
-   vendor/bn/hd-common/proprietary/lib/libion.so:/system/lib/libion.so \
+    vendor/bn/hd-common/proprietary/bin/install_wv_keybox:/system/bin/install_wv_keybox \
+    vendor/bn/hd-common/proprietary/bin/wvdrm_test_client:/system/bin/wvdrm_test_client \
     vendor/bn/hd-common/proprietary/vendor/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
-    vendor/bn/hd-common/proprietary/vendor/firmware/wl1271-nvs_127x.bin:system/etc/firmware/ti-connectivity/wl1271-nvs.bin.orig \
-    vendor/bn/hd-common/proprietary/vendor/firmware/wl127x-fw-4-mr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-mr.bin \
-    vendor/bn/hd-common/proprietary/vendor/firmware/wl127x-fw-4-plt.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-plt.bin \
-    vendor/bn/hd-common/proprietary/vendor/firmware/wl127x-fw-4-sr.bin:system/etc/firmware/ti-connectivity/wl127x-fw-4-sr.bin \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/RFMD_D_E5.ini:system/etc/firmware/ti-connectivity/ini_files/RFMD_D_E5.ini \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/RFMD_S_3.5.ini:system/etc/firmware/ti-connectivity/ini_files/RFMD_S_3.5.ini \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/TQS_D_1.0.ini:system/etc/firmware/ti-connectivity/ini_files/TQS_D_1.0.ini \
