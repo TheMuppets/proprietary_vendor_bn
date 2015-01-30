@@ -27,6 +27,4 @@ PRODUCT_COPY_FILES += \
     vendor/bn/omap4-common/proprietary/vendor/lib/libsrv_init_SGX540_120.so:system/vendor/lib/libsrv_init_SGX540_120.so \
     vendor/bn/omap4-common/proprietary/vendor/lib/libsrv_um_SGX540_120.so:system/vendor/lib/libsrv_um_SGX540_120.so \
     vendor/bn/omap4-common/proprietary/vendor/lib/libusc_SGX540_120.so:system/vendor/lib/libusc_SGX540_120.so \
-    vendor/bn/omap4-common/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
-    vendor/bn/omap4-common/proprietary/vendor/bin/pvrsrvctl_SGX540_120:system/vendor/bin/pvrsrvctl_SGX540_120 \
     vendor/bn/omap4-common/proprietary/etc/powervr.ini:system/etc/powervr.ini
