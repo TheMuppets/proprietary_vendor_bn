@@ -17,8 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/bn/hd-common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     vendor/bn/hd-common/proprietary/vendor/firmware/smc_pa.ift:system/vendor/firmware/smc_pa.ift \
-    vendor/bn/hd-common/proprietary/bin/install_wv_keybox:/system/bin/install_wv_keybox \
-    vendor/bn/hd-common/proprietary/bin/wvdrm_test_client:/system/bin/wvdrm_test_client \
     vendor/bn/hd-common/proprietary/vendor/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/RFMD_D_E5.ini:system/etc/firmware/ti-connectivity/ini_files/RFMD_D_E5.ini \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/RFMD_S_3.5.ini:system/etc/firmware/ti-connectivity/ini_files/RFMD_S_3.5.ini \
@@ -26,5 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/TQS_D_1.7.ini:system/etc/firmware/ti-connectivity/ini_files/TQS_D_1.7.ini \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/TQS_S_2.5.ini:system/etc/firmware/ti-connectivity/ini_files/TQS_S_2.5.ini \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/TQS_S_2.6.ini:system/etc/firmware/ti-connectivity/ini_files/TQS_S_2.6.ini \
-
-
+    vendor/bn/hd-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+    vendor/bn/hd-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/bn/hd-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/bn/hd-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/bn/hd-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/bn/hd-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
