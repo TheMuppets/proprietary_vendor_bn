@@ -17,8 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/bn/hd-common/proprietary/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     vendor/bn/hd-common/proprietary/vendor/firmware/smc_pa.ift:system/vendor/firmware/smc_pa.ift \
-    vendor/bn/hd-common/proprietary/bin/install_wv_keybox:/system/bin/install_wv_keybox \
-    vendor/bn/hd-common/proprietary/bin/wvdrm_test_client:/system/bin/wvdrm_test_client \
     vendor/bn/hd-common/proprietary/vendor/firmware/TIInit_7.6.15.bts:system/etc/firmware/TIInit_7.6.15.bts \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/RFMD_D_E5.ini:system/etc/firmware/ti-connectivity/ini_files/RFMD_D_E5.ini \
     vendor/bn/hd-common/proprietary/vendor/firmware/ini_files/RFMD_S_3.5.ini:system/etc/firmware/ti-connectivity/ini_files/RFMD_S_3.5.ini \
