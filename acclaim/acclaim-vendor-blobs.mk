@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
  vendor/bn/acclaim/proprietary/etc/firmware/ducati-m3.512MB.bin:system/etc/firmware/ducati-m3.512MB.bin \
  vendor/bn/acclaim/proprietary/etc/firmware/ducati-m3.bin:system/etc/firmware/ducati-m3.bin \
  vendor/bn/acclaim/proprietary/vendor/lib/hw/gralloc.omap4430.so:system/vendor/lib/hw/gralloc.omap4430.so \
- vendor/bn/acclaim/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so:system/vendor/lib/egl/libEGL_POWERVR_SGX540_120.so \
  vendor/bn/acclaim/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX540_120.so \
  vendor/bn/acclaim/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX540_120.so \
  vendor/bn/acclaim/proprietary/vendor/lib/libglslcompiler_SGX540_120.so:system/vendor/lib/libglslcompiler_SGX540_120.so \
